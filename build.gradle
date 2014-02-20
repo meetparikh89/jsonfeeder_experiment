@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    runtime fileTree(dir: 'lib', include: '*.jar')
+    //compile group: 'org.glassfish.jersey', name:'jersey-server',version: '2.2.0-b21'
+    compile group: 'javax.ws.rs', name: 'javax.ws.rs-api',version: '2.0'
+    compile group: 'com.fasterxml.jackson.jaxrs' , name: 'jackson-jaxrs-json-provider', version: '2.2.3'
+}
+
+war{
+    archiveName="jerseydemo.war"
+    webXml = file('src/webapp/WEB-INF/web.xml')
+    from('src/webapp') {
+        include '*.html'
+    }
+}

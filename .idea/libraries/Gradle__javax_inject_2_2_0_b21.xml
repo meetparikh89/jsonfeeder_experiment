@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: javax.inject-2.2.0-b21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.inject-2.2.0-b21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
