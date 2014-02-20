@@ -1,6 +1,7 @@
 package my.jersey.demo;
 
 import my.jersey.demo.pojos.Person;
+import my.jersey.demo.services.PersonDetailsService;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -17,11 +18,7 @@ public class PersonDetails {
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/details")
     public Person getPersonDetails(){
-        Person p = new Person();
-        p.setName("ABC");
-        p.setSex('F');
-        p.setSalary(2);
-        return p;
+        return new PersonDetailsService().getPersonDetails();
     }
 
     @POST
@@ -29,7 +26,12 @@ public class PersonDetails {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/insert")
     public Response insertPersonDetails(Person person){
-        return Response.ok("Person inserted successfully").build();
+        int status = new PersonDetailsService().insertPersonDetails(person);
+        if(status == 0){
+            return Response.ok("Person inserted successfully").build();
+        } else {
+            return Response.ok("Insertion failed.").build();
+        }
     }
 
 }
