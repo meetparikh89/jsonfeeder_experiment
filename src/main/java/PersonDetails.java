@@ -2,10 +2,9 @@ package my.jersey.demo;
 
 import my.jersey.demo.pojos.Person;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 /**
  * Created by meet on 20/2/14.
@@ -23,6 +22,14 @@ public class PersonDetails {
         p.setSex('F');
         p.setSalary(2);
         return p;
+    }
+
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.TEXT_PLAIN)
+    @Path("/insert")
+    public Response insertPersonDetails(Person person){
+        return Response.ok("Person inserted successfully").build();
     }
 
 }
