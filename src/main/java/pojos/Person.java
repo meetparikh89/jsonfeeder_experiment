@@ -1,12 +1,12 @@
 package my.jersey.demo.pojos;
 
-import javax.xml.bind.annotation.XmlRootElement;
+//import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * Created by meet on 20/2/14.
  */
 
-@XmlRootElement
+//@XmlRootElement
 public class Person {
 
     private String name;

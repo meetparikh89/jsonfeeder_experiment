@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my.jersey.demo.tests.CalculatorResourceTest" tests="4" failures="0" errors="0" timestamp="2014-02-21T09:02:45" hostname="meet-ThinkPad-L420" time="0.497">
+  <properties/>
+  <testcase name="divideNumbersTest" classname="my.jersey.demo.tests.CalculatorResourceTest" time="0.054"/>
+  <testcase name="multiplyNumbersTest" classname="my.jersey.demo.tests.CalculatorResourceTest" time="0.049"/>
+  <testcase name="subtractNumbersTest" classname="my.jersey.demo.tests.CalculatorResourceTest" time="0.035"/>
+  <testcase name="addNumbersTest" classname="my.jersey.demo.tests.CalculatorResourceTest" time="0.043"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Feb 21, 2014 2:32:45 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Feb 21, 2014 2:32:45 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer start
+INFO: Starting GrizzlyTestContainer...
+Feb 21, 2014 2:32:45 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:9998]
+Feb 21, 2014 2:32:45 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-2] Started.
+Feb 21, 2014 2:32:45 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer stop
+INFO: Stopping GrizzlyTestContainer...
+Feb 21, 2014 2:32:45 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [localhost:9998]
+Feb 21, 2014 2:32:45 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Feb 21, 2014 2:32:45 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer start
+INFO: Starting GrizzlyTestContainer...
+Feb 21, 2014 2:32:45 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:9998]
+Feb 21, 2014 2:32:45 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-3] Started.
+Feb 21, 2014 2:32:46 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer stop
+INFO: Stopping GrizzlyTestContainer...
+Feb 21, 2014 2:32:46 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [localhost:9998]
+Feb 21, 2014 2:32:46 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Feb 21, 2014 2:32:46 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer start
+INFO: Starting GrizzlyTestContainer...
+Feb 21, 2014 2:32:46 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:9998]
+Feb 21, 2014 2:32:46 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-4] Started.
+Feb 21, 2014 2:32:46 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer stop
+INFO: Stopping GrizzlyTestContainer...
+Feb 21, 2014 2:32:46 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [localhost:9998]
+Feb 21, 2014 2:32:46 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+Feb 21, 2014 2:32:46 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer start
+INFO: Starting GrizzlyTestContainer...
+Feb 21, 2014 2:32:46 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:9998]
+Feb 21, 2014 2:32:46 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-5] Started.
+Feb 21, 2014 2:32:46 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer stop
+INFO: Stopping GrizzlyTestContainer...
+Feb 21, 2014 2:32:46 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [localhost:9998]
+]]></system-err>
+</testsuite>
