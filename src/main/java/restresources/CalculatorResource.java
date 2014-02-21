@@ -1,4 +1,4 @@
-package my.jersey.demo.resources;
+package my.jersey.demo.restresources;
 
 /**
  * Created by meet on 19/2/14.
@@ -40,7 +40,7 @@ public class CalculatorResource {
     @GET
     @Path("/subtract/{num1}/{num2}")
     @Produces(MediaType.TEXT_PLAIN)
-    public Double substractNumbers_plain(@PathParam("num1") double num1, @PathParam("num2") double num2){
+    public Double subtractNumbers_plain(@PathParam("num1") double num1, @PathParam("num2") double num2){
         CalculatorService calculatorService = new CalculatorService();
         return calculatorService.substractNumbers(num1, num2);
     }

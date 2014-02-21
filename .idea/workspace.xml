@@ -85,19 +85,10 @@
       <file leaf-file-name="PersonResourceTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PersonResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="81" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.88461536" vertical-offset="255" max-vertical-offset="780">
+            <state line="42" column="60" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.5769231" vertical-offset="405" max-vertical-offset="795">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonDetailResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/resources/PersonDetailResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="60" selection-start="790" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="570">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -351,7 +342,11 @@
         <option value="$PROJECT_DIR$/src/main/java/services/PersonDetailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/PersonDetails.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/CalculatorResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/otherresources/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/PersonResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/restresources/PersonDetailResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/otherresources/MsgConstants.java" />
       </list>
     </option>
   </component>
@@ -533,7 +528,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="otherresources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -884,7 +879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/CalculatorResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/restresources/CalculatorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1050">
           <folding />
@@ -905,10 +900,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/PersonDetailResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/restresources/PersonDetailResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="30" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="645">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -926,14 +923,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/CalculatorResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/restresources/CalculatorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/CalculatorResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/restresources/CalculatorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
           <folding />
@@ -954,7 +951,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/CalculatorResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/restresources/CalculatorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding />
@@ -1011,13 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/CalculatorResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="245" selection-end="245" vertical-scroll-proportion="0.30769232" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/services/PersonDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="23" selection-start="193" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
@@ -1025,16 +1015,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/PersonDetailResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/restresources/PersonDetailResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="60" selection-start="790" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="570">
+        <state line="33" column="67" selection-start="978" selection-end="978" vertical-scroll-proportion="0.5769231" vertical-offset="270" max-vertical-offset="660">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/otherresources/MsgConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="246" selection-end="246" vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restresources/CalculatorResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="5" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.574359" vertical-offset="391" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PersonResourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="81" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.88461536" vertical-offset="255" max-vertical-offset="780">
+        <state line="42" column="60" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.5769231" vertical-offset="405" max-vertical-offset="795">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

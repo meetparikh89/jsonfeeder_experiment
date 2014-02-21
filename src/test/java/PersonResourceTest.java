@@ -1,7 +1,8 @@
 package my.jersey.demo.tests;
 
+import my.jersey.demo.otherresources.MsgConstants;
 import my.jersey.demo.pojos.Person;
-import my.jersey.demo.resources.PersonDetailResource;
+import my.jersey.demo.restresources.PersonDetailResource;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
 import org.junit.Test;
@@ -39,7 +40,7 @@ public class PersonResourceTest extends JerseyTest{
 
         Entity<Person> personEntity = Entity.entity(person, MediaType.APPLICATION_JSON);
         Response response = target("person/insert").request().post(personEntity);
-        assertEquals("Person inserted successfully",response.readEntity(String.class));
+        assertEquals(MsgConstants.person_insertion_succeeded,response.readEntity(String.class));
     }
 
 

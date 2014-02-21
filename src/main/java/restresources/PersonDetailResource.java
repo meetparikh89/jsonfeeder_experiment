@@ -1,5 +1,6 @@
-package my.jersey.demo.resources;
+package my.jersey.demo.restresources;
 
+import my.jersey.demo.otherresources.MsgConstants;
 import my.jersey.demo.pojos.Person;
 import my.jersey.demo.services.PersonDetailsService;
 
@@ -28,9 +29,9 @@ public class PersonDetailResource {
     public Response insertPersonDetails(Person person){
         int status = new PersonDetailsService().insertPersonDetails(person);
         if(status == 0){
-            return Response.ok("Person inserted successfully").build();
+            return Response.ok(MsgConstants.person_insertion_succeeded).build();
         } else {
-            return Response.ok("Insertion failed.").build();
+            return Response.ok(MsgConstants.person_insertion_failed).build();
         }
     }
 
