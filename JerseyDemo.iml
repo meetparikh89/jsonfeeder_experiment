@@ -4,7 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" packagePrefix="my.jersey.demo" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" packagePrefix="my.jersey.demo.tests" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
@@ -52,7 +52,42 @@
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: javax.ws.rs-api-2.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: asm-all-repackaged-2.2.0-b21" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: asm-all-repackaged-2.2.0-b21" level="project" />
-    <orderEntry type="library" name="lib" level="application" />
+    <orderEntry type="library" exported="" name="Gradle: javax.ws.rs-api-2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-jaxrs-json-provider-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-core-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-annotations-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-databind-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-jaxrs-base-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-module-jaxb-annotations-2.2.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: jackson-core-2.2.3" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: jackson-core-2.2.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: jackson-annotations-2.2.3" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: jackson-annotations-2.2.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: jackson-databind-2.2.3" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: jackson-databind-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-test-framework-provider-grizzly2-2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: junit-4.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: asm-all-repackaged-2.2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.inject-2.2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.annotation-api-1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javax.inject-1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: hk2-utils-2.2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: aopalliance-repackaged-2.2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: hk2-api-2.2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javassist-3.18.1-GA" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: hk2-locator-2.2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-guava-2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: osgi-resource-locator-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-common-2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-client-2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: validation-api-1.1.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-server-2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-test-framework-core-2.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grizzly-framework-2.3.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grizzly-http-2.3.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grizzly-http-server-2.3.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-container-grizzly2-http-2.6" level="project" />
   </component>
 </module>
 

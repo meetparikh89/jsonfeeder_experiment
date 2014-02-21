@@ -1,6 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: asm-all-repackaged-2.2.0-b21">
-    <CLASSES />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/asm-all-repackaged-2.2.0-b21.jar!/" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>
