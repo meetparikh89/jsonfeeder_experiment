@@ -27,12 +27,7 @@ public class PersonDetailResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/insert")
     public Response insertPersonDetails(Person person){
-        int status = new PersonDetailsService().insertPersonDetails(person);
-        if(status == 0){
-            return Response.ok(MsgConstants.person_insertion_succeeded).build();
-        } else {
-            return Response.ok(MsgConstants.person_insertion_failed).build();
-        }
+        return Response.ok(new PersonDetailsService().insertPersonDetails(person)).build();
     }
 
 }

@@ -1,5 +1,6 @@
 package my.jersey.demo.services;
 
+import my.jersey.demo.otherresources.MsgConstants;
 import my.jersey.demo.pojos.Person;
 
 /**
@@ -15,8 +16,8 @@ public class PersonDetailsService {
         return p;
     }
 
-    public int insertPersonDetails(Person person){
-        return 0;
+    public String insertPersonDetails(Person person){
+        return MsgConstants.person_insertion_succeeded;
     }
 
 
