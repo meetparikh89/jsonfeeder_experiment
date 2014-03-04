@@ -9,7 +9,7 @@ public class CalculatorService {
         return num1 + num2;
     }
 
-    public double substractNumbers(double num1, double num2){
+    public double subtractNumbers(double num1, double num2){
         return num1 - num2;
     }
 
@@ -18,7 +18,12 @@ public class CalculatorService {
     }
 
     public double divideNumbers(double num1, double num2){
-        return num1 / num2;
+        try{
+            double result = num1 / num2;
+            return result;
+        } catch (Exception e){
+            return 0;
+        }
     }
 
 

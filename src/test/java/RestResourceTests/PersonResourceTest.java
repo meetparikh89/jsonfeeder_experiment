@@ -1,4 +1,4 @@
-package my.jersey.demo.tests;
+package my.jersey.demo.tests.RestResourceTests;
 
 import my.jersey.demo.otherresources.MsgConstants;
 import my.jersey.demo.pojos.Person;

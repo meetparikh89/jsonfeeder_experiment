@@ -42,7 +42,7 @@ public class CalculatorResource {
     @Produces(MediaType.TEXT_PLAIN)
     public Double subtractNumbers_plain(@PathParam("num1") double num1, @PathParam("num2") double num2){
         CalculatorService calculatorService = new CalculatorService();
-        return calculatorService.substractNumbers(num1, num2);
+        return calculatorService.subtractNumbers(num1, num2);
     }
 
     @GET
